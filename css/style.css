@@ -195,3 +195,30 @@ footer{
         height:230px;
     }
 }
+
+/* Video Section */
+.video-section{
+    padding:80px 8%;
+    text-align:center;
+}
+
+.video-section h2{
+    color:#FFD700;
+    font-size:2rem;
+    margin-bottom:30px;
+}
+
+.video-container{
+    max-width:900px;
+    margin:auto;
+    background:rgba(255,255,255,0.08);
+    padding:20px;
+    border-radius:25px;
+    backdrop-filter:blur(10px);
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.video-container video{
+    width:100%;
+    border-radius:20px;
+}
